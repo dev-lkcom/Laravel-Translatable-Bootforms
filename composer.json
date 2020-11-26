@@ -9,10 +9,16 @@
             "email": "Propaganistas@users.noreply.github.com"
         }
     ],
+    "repositories": [
+         {
+            "type": "vcs",
+            "url": "https://github.com/dev-lkcom/bootforms"
+        },
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "~5.0",
-        "adamwathan/bootforms": "^0.8",
+        "adamwathan/bootforms": "dev-master",
         "dimsav/laravel-translatable": "~5.0"
     },
     "require-dev": {
