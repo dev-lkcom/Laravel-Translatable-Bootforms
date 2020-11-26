@@ -13,13 +13,13 @@
          {
             "type": "vcs",
             "url": "https://github.com/dev-lkcom/bootforms"
-        }
+        },
     ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "~5.0",
         "adamwathan/bootforms": "dev-master",
-        "dimsav/laravel-translatable": "~5.0"
+        "dimsav/laravel-translatable": "^9.2"
     },
     "require-dev": {
         "orchestra/testbench": "~3.0",
