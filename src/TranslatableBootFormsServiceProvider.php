@@ -47,7 +47,7 @@ class TranslatableBootFormsServiceProvider extends ServiceProvider {
         });
 
         // Define TranslatableBootForm.
-        $this->app['translatable-bootform'] = $this->app->share(function ($app) {
+        $this->app['translatable-bootform'] = $this->app->singleton(function ($app) {
             $form = new TranslatableBootForm($app['bootform']);
             $form->locales($this->getLocales());
 
